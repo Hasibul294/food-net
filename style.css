@@ -17,7 +17,7 @@ h1{
 h2{
     font-size: 20px;
 }
-#set-position{
+.set-position{
     margin-top: 100px;
 }
 .button-link{
@@ -31,6 +31,15 @@ h2{
 .display-flex{
     display: flex;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     background-color: rgb(216, 241, 239);
+}
+.set-background{
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#adjust-img{
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 200px;
 }
