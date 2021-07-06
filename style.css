@@ -1,6 +1,37 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+     padding:0;
+}
+.topper{
+    background-color:burlywood;
+    padding:0px;
+    margin: 0 auto;
+    }
+.top-container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.login{
+    text-decoration: none;
+    align-items: center;
+}
+.heading img{
+    width:50%;
+    flex: auto;
+ margin-top:5px ;
+ justify-content: center;
+text-align: center;   
+}
+.option-bar a{
+display:inline-flex;
+padding-left: 200px;
+text-decoration: none;
+    justify-content:center;
+    text-align:justify;
+    color:green;
+    font-weight: bolder;
 }
 .color-name{
     color: rgba(235, 21, 128, 0.973);
@@ -30,16 +61,64 @@ h2{
 }
 .display-flex{
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    background-color: rgb(216, 241, 239);
+    margin-top:0px;
+    margin-bottom:5px;
+    background-color: rgb(216, 241, 239);  
 }
 .set-background{
     background-image: url(food-network-main/images/shapes/7.png);
     background-repeat: no-repeat;
 }
-#adjust-img{
+.adjust-img{
     width: 50%;
     padding-top: 80px;
     padding-left: 200px;
 }
+#recipie-style{
+    text-align: center;
+    font-size: 15px;
+}
+.container{
+    width:1100px;
+margin: 0 auto;
+}
+.box-divide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.adjust-img-box{
+    box-shadow:10px 10px 30px gray;
+    flex:auto;
+    margin: 5px 10px;
+    border-radius: 10px;
+    width: 40%;
+padding:20px;
+}
+.box-divide img{
+    max-width: 250px;
+    justify-content: center;
+ margin: 20px;
+ padding: 20px;
+}
+.adjust-img-box h3{
+    color:tomato;
+    font-size: 20px;
+    font-weight:bolder;
+    }
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    padding: 30px;
+}
+.foother-end{
+    color: white;
+    font-weight:lighter;
+}
+
+
+
+
